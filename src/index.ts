@@ -1,1 +1,1 @@
-console.log('market status?')
+export * from './getMarketStatus'
