@@ -1,0 +1,16 @@
+{
+  "name": "crypto-market-status",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "test": "nyc mocha -r ts-node/register src/**/*.test.ts"
+  },
+  "repository": "git@github.com:samthomson/crypto-market-status.git",
+  "author": "Sam Thomson <samt@samt.st>",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^2.8.1"
+  }
+}
