@@ -15,3 +15,4 @@ Returns a structure containing indicators:
 
 - add install / setup section to readme
 - add table to readme containing indicators with description and possible return types
+- spoof currency package
