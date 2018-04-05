@@ -11,8 +11,26 @@ Returns a structure containing indicators:
 }
 ```
 
+## install
+
+`yarn add crypto-market-status`
+
+## use
+
+```
+import getMarketStatus from 'getMarketStatus'
+
+main async () {
+    const mStatus = getMarketStatus()
+    console.log(mStatus.GREEN_OR_RED.ONE_WEEK)
+}
+
+main()
+```
+
+prints `GREEN`
+
 ## todo
 
-- add install / setup section to readme
 - add table to readme containing indicators with description and possible return types
 - spoof currency package
