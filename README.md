@@ -4,7 +4,7 @@ Looks at the current crypto market and deduces highlevel signals.
 
 Returns a structure containing indicators:
 
-```
+```typescript
 {
     GREEN_OR_RED: 'GREEN',
     ...
@@ -17,7 +17,7 @@ Returns a structure containing indicators:
 
 ## use
 
-```
+```typescript
 import getMarketStatus from 'getMarketStatus'
 
 main async () {
